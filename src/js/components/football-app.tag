@@ -98,7 +98,7 @@
 
         .live {
             position: absolute;
-            top: 14px;
+            top: 19px;
             left: 45px;
             z-index: 10;
             color: white;
