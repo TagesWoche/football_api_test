@@ -113,7 +113,7 @@
 
         this.livescoreData = ''
 
-        const soccerama = new Soccerama('VGB7bDVCo9b4lW726imNa5pXbW6Sd8hbas3Ifr3MQlZV2cqOvAw9KGH0BWYg', 'v1.2')
+        const soccerama = new Soccerama('H08hFsw5eYYvoWrwsc8Tkj29DPMr4h2O85dCSN5bNtWpVaKmH6hNBejJo0Vx', 'v1.2')
 
 
         this.livescore = () => {
