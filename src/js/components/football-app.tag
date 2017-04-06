@@ -102,6 +102,7 @@
             left: 45px;
             z-index: 10;
             color: white;
+            font-family: sans-serif;
         }
 
     </style>
