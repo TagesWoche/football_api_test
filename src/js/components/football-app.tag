@@ -125,7 +125,7 @@
             })
         }
 
-        let refresh = setInterval(this.livescore, 20000)
+        let refresh = setInterval(this.livescore, 100000)
         this.livescore()
 
         //get data for the teams, FCB
