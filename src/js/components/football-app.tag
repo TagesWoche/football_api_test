@@ -115,11 +115,6 @@
 
         const soccerama = new Soccerama('VGB7bDVCo9b4lW726imNa5pXbW6Sd8hbas3Ifr3MQlZV2cqOvAw9KGH0BWYg', 'v1.2')
 
-        /*tick() {
-            this.update({ time: ++this.time })
-        }
-
-        var timer = setInterval(this.tick, 1000)*/
 
         this.livescore = () => {
             soccerama.get('livescore/match/{id}', { id: 692626 }).then(data => {
@@ -130,9 +125,7 @@
             })
         }
 
-        //let refresh = setInterval(this.livescore, 10000)
-
-        this.livescore()
+        let refresh = setInterval(this.livescore, 20000)
 
         //get data for the teams, FCB
 
