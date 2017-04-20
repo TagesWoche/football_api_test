@@ -1,4 +1,4 @@
-<football-app>
+<soccerama-app>
 
     <span class="pulse"></span><span class="live">Live</span>
 
@@ -153,4 +153,4 @@
     </script>
 
 
-</football-app>
+</soccerama-app>

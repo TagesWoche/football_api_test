@@ -6,7 +6,9 @@ if (module.hot) {
 
 import { mount } from 'riot'
 import '../styles/index.scss'
-import './components/football-app.tag'
+import './components/sportradar-app.tag'
 
-mount('football-app', {
+// import './components/soccerama-app.tag'
+
+mount('sportradar-app', {
 })
